@@ -1,4 +1,3 @@
-
 import './App.css';
 import './data/passChar.jsx'
 import { uc, lc, nc, sc } from './data/passChar.jsx';
@@ -12,7 +11,7 @@ function App() {
   let [number,setnumber] = useState(false)
   let [symbol,setsymbol] = useState(false)
   let [passwordlen,setpasswordlen] = useState(10)
-  let[fpassword,setfpassword] = useState()
+  let [fpassword,setfpassword] = useState()
   
 
   let createpassword = () =>{
